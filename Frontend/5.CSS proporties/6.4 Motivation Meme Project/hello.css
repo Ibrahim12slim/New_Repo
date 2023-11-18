@@ -1,0 +1,17 @@
+#second{
+    font-family: 'Libre Baskerville', serif;
+    color: white;
+    text-align: center;
+}
+html{
+    background-color: black;
+}
+#third{
+    color: white;
+    text-align: center;
+}
+#first{
+    border: 5px solid white;
+    width: 50%;
+    margin-left: 25%;
+}

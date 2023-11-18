@@ -1,0 +1,18 @@
+html{
+    background-color: black;
+}
+
+#classs1{
+    border: 5px solid white;
+    width: 100%;
+}
+#class2{
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 3rem;
+}
+#class3{
+    color: white;
+    text-align: center;
+}
