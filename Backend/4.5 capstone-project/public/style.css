@@ -1,0 +1,30 @@
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+#header {
+    background-color:darkgray;
+    padding: 20px 100px;
+    color: white;
+    text-align: center;
+    border-radius: 20px;
+  }
+#new-list{
+    width: 500px;
+    height: 50px;
+    border-color: black;
+    border-radius: 20px;
+    background-color: lightgray;
+}
+#but{
+    background-color: lightgray;
+    font-weight: 900;
+    height: 55px;
+    width: 100px;
+    border-radius: 50px;
+    border-color: black;
+}

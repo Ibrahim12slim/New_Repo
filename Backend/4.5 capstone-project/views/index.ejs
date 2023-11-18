@@ -1,0 +1,28 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+            <div class="container1">
+                <h2>My To-Do List</h2>
+            </div>
+            <div class="container2" id="header">
+                <form action="/submit" method="post">
+                    <input type="text" id="new-list" name="list">
+                    <button id="but">ADD</button>
+                </form>
+            </div>
+            <div class="container3">
+                <ol>
+                    <li>
+                        <% for(var i =0 ; i < MyList.length ; i++){ %>
+                           <%= console.log(MyList[i]); %>
+                        <% } %>
+                    </li>
+                </ol>
+            </div>
+    </div>
+</body>
